@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MenuItems</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_new_order">Create New Order</string>
+    <string name="display_pending_orders">Display Pending Order</string>
+    <string name="display_completed_orders">Display Completed Order</string>
+    <string name="show_more">Show More</string>
+    <string name="sync_to_server">Sync with Server</string>
+    <string name="day_statement">Day Statement</string>
+    <string name="day_sales_report">Day Sales Report</string>
+    <string name="order_sales_report">Order Sales Report</string>
+    <string name="credit_report">Credit Report</string>
+    <string name="shopping_list">Quick Order List</string>
+</resources>

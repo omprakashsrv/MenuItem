@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.StoreAtHandOperations">
+
+    <item
+        android:id="@+id/newOrder"
+        android:icon="@drawable/neworder"
+        android:title="@string/create_new_order"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/pendingOrders"
+        android:icon="@drawable/pendingorders"
+        android:title="@string/display_pending_orders"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/completedOrder"
+        android:icon="@drawable/ic_done_all_24dp"
+        android:title="@string/display_completed_orders"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:title="@string/show_more"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/sync"
+                android:icon="@drawable/server_sync"
+                android:title="@string/sync_to_server"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/paymentReport"
+                android:icon="@drawable/monitor_with_stats"
+                android:title="@string/day_statement"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/dailySales"
+                android:icon="@drawable/report"
+                android:title="@string/day_sales_report"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/orderSalesReport"
+                android:icon="@drawable/stats"
+                android:title="@string/order_sales_report"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/creditReport"
+                android:icon="@drawable/money"
+                android:title="@string/credit_report"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/shoppingList"
+                android:icon="@drawable/list"
+                android:title="@string/shopping_list"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+    </item>
+</menu>
